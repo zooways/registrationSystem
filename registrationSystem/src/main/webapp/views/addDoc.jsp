@@ -37,7 +37,7 @@
                                 <form role="form" class="form-horizontal">
                                     <div class="form-group">
                                         *<label>医生名字(必填)</label>
-                                        <input id="docName" type="text" placeholder="请输入科室名字" class="form-control">
+                                        <input id="docName" type="text" placeholder="请输入医生名字" class="form-control">
                                     </div>
                                     <div class="form-group">
                                         *<label>医生所在科室(必填)</label>

@@ -31,6 +31,7 @@ public class RegisterController {
 			}
 		}catch(Exception e) {
 			result = "error";
+			e.printStackTrace();
 		}
 			
 		System.out.println(result);

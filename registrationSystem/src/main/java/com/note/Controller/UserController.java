@@ -55,6 +55,7 @@ public class UserController {
 			}
 		}catch(Exception e) {
 			result = "error";
+			e.printStackTrace();
 		}
 		
 		
