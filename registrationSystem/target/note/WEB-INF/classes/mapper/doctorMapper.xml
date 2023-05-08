@@ -41,7 +41,8 @@
     
     <!-- 更新状态 -->
     <update id="updateDoctorStatus" parameterType="com.note.Model.Doctor">
-    	UPDATE doctor SET status = 0 WHERE doctorId=#{doctorId}
+<!--    	UPDATE doctor SET status = 0 WHERE doctorId=#{doctorId}-->
+        delete from doctor where doctorId=#{doctorId}
     </update>
     
     <!-- 更新上班状态 -->

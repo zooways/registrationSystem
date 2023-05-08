@@ -37,7 +37,8 @@
     
     <!-- 更新状态 -->
     <update id="updateDeptStatus" parameterType="com.note.Model.Department">
-    	UPDATE department SET status = 0 WHERE departmentId=#{departmentId}
+<!--    	UPDATE department SET status = 0 WHERE departmentId=#{departmentId}-->
+        delete  from department where departmentId=#{departmentId}
     </update>
 </mapper>
 

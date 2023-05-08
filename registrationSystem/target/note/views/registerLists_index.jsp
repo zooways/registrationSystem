@@ -92,8 +92,8 @@
                         columns: [
                             { data: 'registerId' },
                             { data: 'hzName' },
-                            { data: 'doctorName' },
                             { data: 'deptName' },
+                            { data: 'doctorName' },
                             { data: 'ghStatus',render:function(data,type,row){
                                 if(data == 1){
                                     return "<button class='btn btn-success'>正常</a>";

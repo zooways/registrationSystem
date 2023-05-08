@@ -32,7 +32,7 @@
     </select>
     <!-- 添加记录 -->
     <insert id="AddRegister" parameterType="com.note.Model.Register" timeout="20" useGeneratedKeys="true" keyProperty="registerId">
-        INSERT INTO register(hzUsername,hzName,hzId,address,tel,doctorName,doctorId,deptName,deptId,ghStatus,registerTime,createTime,status) 
+        INSERT INTO register(hzUsername,hzName,hzId,address,tel,doctorName,doctorId,deptName,deptId,ghStatus,registerTime,createTime,status)
         VALUES(#{hzUsername},#{hzName},#{hzId},#{address},#{tel},#{doctorName},#{doctorId},#{deptName},#{deptId},1,#{registerTime},#{createTime},1)
     </insert>
     
